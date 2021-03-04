@@ -47,8 +47,9 @@ function setup() {
 function draw() {
   background(56,44,44); 
  
-
-  //set text Drag the Hexagonal Stone and Release it, to launch it towards the blocks
+ textSize(20);
+  fill("lightyellow");
+  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
 
   
   strokeWeight(2);
