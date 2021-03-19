@@ -95,3 +95,13 @@ function draw() {
   slingShot.display();
 }
 
+//add functions for mouse
+
+
+
+
+function keyPressed(){
+  if(keyCode === 32){
+      slingShot.attach(this.polygon);
+  }
+}
